@@ -14,6 +14,8 @@ import {
     SimpleChanges,
     ViewChild
 } from '@angular/core';
+import {DialogModule} from 'primeng/dialog';
+
 import { DomSanitizer, SafeStyle, SafeUrl } from '@angular/platform-browser';
 import { CropperPosition, Dimensions, ImageCroppedEvent, ImageTransform, MoveStart } from '../interfaces';
 import { getTransformationsFromExifData, supportsAutomaticRotation } from '../utils/exif.utils';

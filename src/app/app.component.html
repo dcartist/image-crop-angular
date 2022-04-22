@@ -1,5 +1,12 @@
+
+
+<p-dialog header="Title" [(visible)]="display">
+  Content
+</p-dialog>
+
+<button type="button" (click)="showDialog()" icon="pi pi-info-circle" label="Show">Click here</button>
+
 <div class="container mt-5 text-center">
-  <h3 class="mb-5">Angular Image Crop Example</h3>
   <div class="col-md-12">
     <input type="file" (change)="onFileChange($event)" />
   </div>
